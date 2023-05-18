@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  color: #333533;
+  background: #f2e9e4;
+}
+
+header {
+  width: 100%;
+  top: 2%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #f2e9e4;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #2e2621;
+}
+
+a:link:hover {
+  color: #ce4c0791;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.content {
+  max-width: 800px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  scroll-snap-align: start;
+}
+
+.one {
+  background-image: url(https://source.unsplash.com/MIRbeLb6HTw);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 2%;
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #1a120d;
+}
+
+h1 {
+  font-size: 6.25em;
+  color: #d2b525;
+  line-height: 150%;
+  margin: 0;
+}
+
+p {
+  color: #f2e9e4;
+}
+
+.product-color {
+  color: #4d4d4d;
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+  border-style: solid;
+}
+
+.container {
+  background-color: #f8ad9d;
+}
