@@ -30,6 +30,7 @@ body {
 
 ul li {
   list-style: none;
+  text-align:center;
 }
 
 a {
@@ -62,14 +63,20 @@ body {
   background-color: var(--background-color);
 } */
 header {
+  width:100%;
   position: fixed;
   top: 0;
   min-height: 75px;
   padding: 0px 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-color: #eee;
+}
+
+nav {
+  width:100%;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo > img {
@@ -80,12 +87,11 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 20px;
 }
 
-nav ul {
-  width: 35vh;
+nav > ul {
   display: flex;
+  flex:1;
   flex-direction: row;
   justify-content: space-around;
 }
