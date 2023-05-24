@@ -1,0 +1,58 @@
+:root {
+  --background-color: #111212;
+  --btn-color: #9c7c38;
+  --text-clr: #fff;
+  --text-clr-hover: #c4c4aa;
+  --text-accent: #c69749;
+  /* ff= font-family */
+  --ff-primary: 'Playfair Display', serif;
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-primary);
+
+  /* font weight */
+  --fw-regular: 500;
+  --fw-italic: 500;
+  --fw-bold: 700;
+  /* font size */
+  --fs-600: 1rem;
+  --fs-700: 2rem;
+  --fs-700: 3rem;
+
+  --fs-body: var(--fs-600);
+  --fs-nav: var(--fs-700);
+  --fs-button: var(--fs-600);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  color: var(--text-clr);
+  background: var(--background-color);
+}
